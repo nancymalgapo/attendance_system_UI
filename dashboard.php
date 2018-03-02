@@ -30,7 +30,7 @@
         <li><a href="#"><span class="fa fa-user"></span> &nbspProfile</a></li>
         <li><a href="#"><i class="glyphicon glyphicon-list"></i>&nbsp Registration Form</a></li>
         <li class="divider"></li>
-        <li class="dropdown"><a href="#"><i class="fa fa-wpforms"></i>&nbsp Attendance Log Sheet</a></li>
+        <li class="dropdown"><a href="attendance.php"><i class="fa fa-wpforms"></i>&nbsp Attendance Log Sheet</a></li>
         <li class="divider"></li>
         <li class="dropdown"><a href="#"><i class="fa fa-sitemap"></i>&nbsp Room Slots</a></li>
     </ul>
@@ -118,21 +118,6 @@
               <center>
                 <div id="morris-donut-chart"></div>
                 <a href="#" class="btn btn-default btn-block">View Details</a>
-            </center>
-          </div>
-      </div>
-    </div>
-
-    <div class="col-lg-4">
-      <div class="panel panel-default">
-          <div class="panel-heading">
-              <i class="glyphicon glyphicon-list-alt"></i> Generate a Report
-          </div>
-          <div class="panel-body">
-              <center>
-                Choose Date <input type="text" name="daterange" value="01/01/2015 - 01/31/2015" />
-                <br><br>
-                <a href="#" class="btn btn-default">Download Report</a>
             </center>
           </div>
       </div>
