@@ -81,23 +81,5 @@
         </div>
         </div>
 
-        <!-- Script -->
-        <script type="text/javascript">
-        $(document).ready(function(){
-         
-          $('#datepicker').datepicker({
-           format: "yy-mm-dd",
-           startDate: '-1y -1m',
-           endDate: '+2m +10d'
-          });
-
-          $('#datepicker2').datepicker({
-           format: "yy-mm-dd",
-           startDate: '-1m',
-           endDate: '+10d'
-          }); 
-        });
-        </script>
-
 </body>
 </html>
